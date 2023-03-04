@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/KeyAs"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="49dp">
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="349dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="72dp"
+            android:text="Here are the best doctors in the Kingdom of Saudi Arabia for children with chest allergies and asthma. If it's a necessity, contact them by simply clicking on the number."
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textColor="@color/Brown"
+            android:fontFamily="@font/alegreya"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tariq"
+        android:layout_width="350dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/field"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:text="1. Dr. Tariq Musa: He is considered the most famous and best pediatrician in Riyadh for chest, and he has more than twenty years of scientific and practical experience in several different hospitals and clinics."
+        android:textAlignment="center"
+        android:fontFamily="@font/alegreya"
+        android:textColor="@color/Brown"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/phoneTariq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="104dp"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:text="+966 11 402 6202"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/tariq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <TextView
+        android:id="@+id/adel"
+        android:layout_width="350dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/field"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:text="2. Dr. Adel Al-Haidari: He is the best pediatric pulmonologist in Riyadh, a consultant in the treatment of pediatric lung diseases. He has more than 15 years of experience."
+        android:textAlignment="center"
+        android:fontFamily="@font/alegreya"
+        android:textColor="@color/Brown"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tariq" />
+
+    <TextView
+        android:id="@+id/phoneadel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:text="+966 92 002 4111"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/adel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.309"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/adel"
+        app:layout_constraintVertical_bias="0.889" />
+
+    <TextView
+        android:id="@+id/abdulrahman"
+        android:layout_width="350dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/field"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:text="3 . Dr. Abdul Rahman Al-Farih: He is one of the consultant doctors and specialists in pediatric chest diseases, and the best chest doctor in Riyadh."
+        android:textAlignment="center"
+        android:fontFamily="@font/alegreya"
+        android:textColor="@color/Brown"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/testingTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adel"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/phoneabdulrahman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:text="+966 11 5259999"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/abdulrahman"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/abdulrahman"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <TextView
+        android:id="@+id/testingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copy"
+        android:textAlignment="center"
+        android:textColor="@color/Brown"
+        android:textSize="14sp"
+        android:paddingTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

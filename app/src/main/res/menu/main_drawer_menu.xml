@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_Home"
+            android:icon="@drawable/homee"
+            android:title="HOME" />
+
+        <item android:id="@+id/nav_Account"
+            android:icon="@drawable/account"
+            android:title="ACCOUNT" />
+
+        <item android:id="@+id/nav_GAdv"
+            android:icon="@drawable/advicee"
+            android:title="GENERAL ADVICE" />
+
+        <item android:id="@+id/nav_Contact"
+            android:icon="@drawable/contact"
+            android:title="CONTACT DOCTOR" />
+
+        <item android:id="@+id/nav_AbtUs"
+            android:icon="@drawable/aboutus"
+            android:title="ABOUT US" />
+
+        <item android:id="@+id/nav_LogOut"
+            android:icon="@drawable/logouut"
+            android:title="LOG OUT" />
+    </group>
+
+</menu>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/KeyAs"
+    tools:context=".Welcome">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="97dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/damionff"
+        android:text="CURE"
+        android:textColor="@color/Brown"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:onClick="LogInClicked"
+        android:background="@drawable/btn"
+        android:backgroundTint="@color/Brown"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/SignUp_btnWelc"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:text="Sign up"
+        android:onClick="SignUpClicked"
+        android:background="@drawable/btn"
+        android:backgroundTint="@color/Brown"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="186dp"
+        android:layout_height="41dp"
+        android:fontFamily="@font/alegreya"
+        android:text="An once of"
+        android:textColor="@color/Brown"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="206dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/damionff"
+        android:text="PREVENTION"
+        android:textColor="@color/Brown"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="284dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/alegreya"
+        android:text="is worth a pound of"
+        android:textColor="@color/Brown"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="253dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="20dp"
+        android:alpha=".1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/asthmaiot" />
+</androidx.constraintlayout.widget.ConstraintLayout>
